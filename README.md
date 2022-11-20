@@ -31,7 +31,7 @@
 4.In case,submit form is entered without any values in the form, an alert message will pop-up telling you to put in valid information.​
 
 ## Link to the project
-*https://amwau.github.io/week-2/
+*https://amwau.github.io/delanistudio/
 
 ## Copyright and license Information
 *All rights reserved. *Copyright (c) 2019 Annastacia

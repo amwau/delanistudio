@@ -57,14 +57,26 @@ body {
     font-family: 'Yantramanav', sans-serif;
   }
   .services {
-    background-image: url("../images/background/s_image.jpg");
-    background-size: cover;
-    text-align: center;
-    color: black;
-    font-size: small;
-    font-family: 'Yantramanav', sans-serif;
-  }
-  .hide{
+  text-align: center;
+  background-image: url("../images/backgrounds/s_image.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Copse', serif;
+  font-size: 18px;
+}
+.services h4{
+  font-family: 'Gabriela', serif;
+  
+}
+#servicesoverlay{
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+  
+.hide{
     display:none;
   }
   
@@ -85,29 +97,52 @@ body {
   .row{
     padding:2%;
   }
-  .Contact-Us {
-    background-image: url('../images/backgrounds/c_image.jpg');
-    background-size:cover;
-    display: cover;
-    padding: 10%;
-  }
-  form #contact{
-    background-color: rgba(0, 0, 0, 0);
-  }
   
-  input[type=text] {
-    background:transparent;
-    color: black;
-  }
-  textarea[type=text] {
-    background:transparent;
-    color: white;
-  }
-  
-  .submit{
-    position:absolute;
-    padding-left: 25%;
-  }
+.Contact-Us {
+  background-image: url('../images/backgrounds/c_image.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /* text-align: center; */
+}
+.title{
+  padding: 6px;
+}
+.contact h4{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: 'Gabriela', serif;
+}
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Copse', serif;
+}
+
+.form-control::-webkit-input-placeholder { 
+  color: white; 
+}
+#MERGE1{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+#MERGE0{
+  width: 30%;
+}
+#comment{
+  margin-left: 20%;
+  width: 60%;
+}
+button{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
   
   .Footer {
     color: black;
